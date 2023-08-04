@@ -4,8 +4,8 @@ const randomMessage = lst => lst[randomIndex(lst.length)];
 const concatenateAll = (str1, str2, str3) => `${str1} ${str2}... then, suddenly, ${str3}`;
 
 // DOM Elements
-let messageButton = document.getElementById('msgBtn');
-let asciiButton = document.getElementById('asciiBtn');
+let messageButton = document.getElementById('showMsgBtn');
+let asciiButton = document.getElementById('showAsciiBtn');
 let message = document.getElementById('msg');   
 
 // Global Variables
@@ -18,4 +18,4 @@ const asciiIsCool = "  __  ____  ___ __ __    __ ____     ___ __   __  __   \r\n
 function returnMessage() { message.innerHTML = concatenateAll(randomMessage(firstSet), randomMessage(secondSet), randomMessage(lastSet)); }
 
 // Event Listeners
-messageButton.addEventListener('click', returnMessage); 
+messageButton.addEventListener('click', returnMessage);
