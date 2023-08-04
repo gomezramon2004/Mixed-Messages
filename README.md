@@ -5,7 +5,7 @@ In this project a way to randomize a list of messages from different topics and 
 
 The software will contain the following functionalities:
 
-- Full **personalized messages** made of three randomized statements.
+- Full **randomized messages** made of three statements.
 - Write your **own statements**. It will be saved in a database.
 - Display **ASCII art** as a random easter egg!
 
